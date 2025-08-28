@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="task7.js"></script>
+</head>
+
+<body>
+    <form onsubmit="percent(event)">
+        <label for="percent">percentage</label>
+        <input type="number" id="inp1" placeholder="Enter %" min="0" max="100">
+        <button type="submit">Show Progress</button>
+    </form>
+    <div
+        style="width:100%;height: 500px; background:rebeccapurple; height:30px; border-radius:5px; margin-top:15px; border: white dashed;">
+        <div id="bar"
+            style="height: 100%; width:0%; background:white; border-radius:0.05px;  text-align:center; color:black">
+            0%
+        </div><br>
+    </div>
+</body>
+
+</html>
